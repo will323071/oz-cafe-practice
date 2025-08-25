@@ -11,7 +11,7 @@ export const MenuProvider = ({ children }) => {
       {children}
     </MenuContext.Provider>
   );
-};
+}; 
 
 export const useMenu = () => {
   return useContext(MenuContext);
